@@ -1,0 +1,13 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    
+}
+#education .items{
+    flex-direction: column;
+}
+.certificates .certicate{
+    flex-direction: column;
+}

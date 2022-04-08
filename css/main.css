@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+img.yuvarlak{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+html{
+    font-family: "open Sans", sans-serif;
+}
+#navbar{
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover {
+    background: lightslategray;
+    border-radius: 4px;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+#home.name{
+    text-align: center;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+    margin-left: 15%;
+}
+#home a{
+    margin: 1.25rem;
+    background: gray;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+#home a:hover{
+    color: lightslategray;
+    background: white;
+    border: 0.5px solid gray;
+}
+#education{
+    color: white;
+    padding: 2rem;
+}
+#education .items{
+    display: flex;
+}
+#certificates{
+    color: gray;
+    padding: 1rem;
+
+}
+.certificates{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.certificates .certificate{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#contact{
+    color: white;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.8;
+}
